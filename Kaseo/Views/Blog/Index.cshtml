@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+<!-- .breadcumb-area start -->
+<div class="breadcumb-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="breadcumb-wrap text-center">
+                    <h2>Latest News</h2>
+                    <ul>
+                        <li><a href="@Url.Action("index", "home")">Home</a></li>
+                        <li><span>Blog</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- .breadcumb-area end -->
+<!-- start blog-section -->
+@{ 
+    Html.RenderPartial("~/Views/Shared/_LatestNews.cshtml");
+}
+<!-- end blog-section -->

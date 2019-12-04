@@ -1,0 +1,38 @@
+﻿
+@{
+    ViewBag.Title = "About";
+}
+
+<!-- .breadcumb-area start -->
+<div class="breadcumb-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="breadcumb-wrap text-center">
+                    <h2>About Us</h2>
+                    <ul>
+                        <li><a href="@Url.Action("index", "home")">Home</a></li>
+                        <li><span>About Us</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- .breadcumb-area end -->
+<!-- start about-section -->
+@{
+    Html.RenderPartial("~/Views/Shared/_AboutUs.cshtml");
+}
+<!-- end about-section -->
+<!-- service-area start -->
+@{
+    Html.RenderPartial("~/Views/Shared/_OurBestServices.cshtml");
+}
+<!-- end service-area -->
+<!--Start project area-->
+<!-- start quote-section -->
+@{
+    Html.RenderPartial("~/Views/Shared/_Quota.cshtml");
+}
+<!-- end quote-section -->

@@ -1,0 +1,119 @@
+﻿        <!-- start of hero -->
+<section class="hero hero-slider-wrapper hero-style-1 hero-style-2">
+    <div class="hero-slider">
+        <div class="slide">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-lg-6 col-sm-8 slide-caption">
+                        <div class="slide-title">
+                            <h2>Largest SEO Agency in Europe </h2>
+                        </div>
+                        <div class="slide-subtitle">
+                            <p>Recently cut out of an illustrated magazine and housed in a nice, gilded frame. It showed a lady fitted out with a fur hat and.</p>
+                        </div>
+                        <div class="btns">
+                            <a href="#" class="theme-btn">Learn More</a>
+                        </div>
+                        <div class="slider-pic">
+                            <img src="~/Public/images/slider/img-1.png" alt>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-lg-6 col-sm-8 slide-caption">
+                        <div class="slide-title">
+                            <h2>Largest SEO Agency in Europe </h2>
+                        </div>
+                        <div class="slide-subtitle">
+                            <p>Recently cut out of an illustrated magazine and housed in a nice, gilded frame. It showed a lady fitted out with a fur hat and.</p>
+                        </div>
+                        <div class="btns">
+                            <a href="#" class="theme-btn">Learn More</a>
+                        </div>
+                        <div class="slider-pic slider-pic-2">
+                            <img src="~/Public/images/slider/img-2.png" alt>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end of hero slider -->
+<!-- start about-section -->
+@{
+    Html.RenderPartial("~/Views/Shared/_AboutUs.cshtml");
+}
+<!-- end about-section -->
+<!-- service-area start -->
+@{
+    Html.RenderPartial("~/Views/Shared/_OurBestServices.cshtml");
+}
+<!-- end service-area -->
+<!--Start project area-->
+<!-- start quote-section -->
+@{
+    Html.RenderPartial("~/Views/Shared/_Quota.cshtml");
+}
+<!-- end quote-section -->
+<!-- counter-area start -->
+<div class="counter-area">
+    <div class="ab-color_svg ab-svg_color-m">
+        <svg x="0px" y="0px"
+             viewBox="0 0 1920 289" enable-background="new 0 0 1920 289" xml:space="preserve">
+        <path fill="#fff" d="M959,169C582.541,169,240.253,104.804-14.125,0H0v289h1920V0h12.125C1677.747,104.804,1335.459,169,959,169z" />
+</svg>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="counter-grids">
+                    <div class="grid">
+                        <div>
+                            <h2><span class="odometer" data-count="3200">00</span>+</h2>
+                        </div>
+                        <p>Compleated Projects</p>
+                    </div>
+                    <div class="grid grid-2">
+                        <div>
+                            <h2><span class="odometer" data-count="108">00</span>k</h2>
+                        </div>
+                        <p>Worldwide Users</p>
+                    </div>
+                    <div class="grid grid-4">
+                        <div>
+                            <h2><span class="odometer" data-count="25">00</span>+</h2>
+                        </div>
+                        <p>Years Of Experience</p>
+                    </div>
+                    <div class="grid grid-3">
+                        <div>
+                            <h2><span class="odometer" data-count="50">00</span>+</h2>
+                        </div>
+                        <p>Award Winner</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- counter-area end -->
+<!-- start Project-section -->
+@{ 
+    Html.RenderPartial("~/Views/Shared/_Project.cshtml");
+}
+<!-- end Project-section -->
+<!-- testimonial-area start -->
+@{ 
+    Html.RenderPartial("~/Views/Shared/_Testimonial.cshtml");
+}
+<!-- testimonial-area end -->
+<!-- start blog-section -->
+@{ 
+    Html.RenderPartial("~/Views/Shared/_LatestNews.cshtml");
+}
+<!-- end blog-section -->
